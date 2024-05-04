@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*Usando os elementos do HTML (html-body-p)*/
+    html{
+        font-family: "Freeman", sans-serif;
+    }
+
+body {
+
+    background-color: #708090;
+    margin-bottom: 100px;
+}
+/*Usando uma Classe*/
+
+img{
+
+    
+}
+.header {
+
+    background-color: #87CEEB;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.menu    {
+    display: flex;
+
+    }
+
+.menu li {
+
+list-style:none;
+
+}
+
+.menu li a {
+
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    }
+    
+    /*criar um retangulo ao passar o ponteiro do mouse*/
+    .menu a:hover {
+
+       background-color: blue;
+       color:azure;
+       padding: 10px;
+       border-radius: 5px;
+
+    }
+        
